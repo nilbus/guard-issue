@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'guard', '2.0.3'
+gem 'guard-rspec', '3.1.0'
+
+# current dependencies as of error report date: Oct 9, 2013
+# @ https://stackoverflow.com/q/19271319/87298
+gem 'listen', '2.0.3' # Couldn't reproduce problem w/ listen-2.10.1 (June 17, 2015)
+gem 'celluloid', '0.15.2'
